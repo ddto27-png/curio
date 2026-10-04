@@ -2,3 +2,8 @@
 /pipeline/
 /internal/
 /research/audience-and-direction.md
+dist/
+.vercel/
+.env*
+node_modules/
+.DS_Store

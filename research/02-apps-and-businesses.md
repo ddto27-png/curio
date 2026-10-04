@@ -90,3 +90,4 @@ A private app for saving notes, bookmarks, articles, and images. It organizes sa
 [Explore mymind](https://mymind.com/)
 
 The closest matches to the examples you supplied are Remento, Cosmos, and Airbuds. Polycam is the strongest literal illustration of physical things becoming portable digital experiences; Timeleft is the useful adjacent case of technology creating an intangible human benefit in a physical setting.
+

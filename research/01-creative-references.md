@@ -32,3 +32,4 @@ Working from your phrase, here’s an open-ended collection of connections—som
    The 2017 film follows a ghost returning to the house he shared with his partner, increasingly unmoored from ordinary time. My connection here is emotional: the tangible things of a shared life gradually give way to the attachment that outlasts them. **What remains of a place after the people and objects that defined it are gone?** [Watch the trailer](https://a24films.com/films/a-ghost-story).
 
 **I’d start with the Air Swipe Bag, *Invisible Labyrinth*, and Cities and Memory.** Together they offer three very different ways into the concept: almost removing matter, replacing matter with sensation, and translating matter into imagination.
+
