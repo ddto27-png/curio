@@ -1,7 +1,0 @@
-.manifesto-hero{padding:78px 0 82px;max-width:980px;border-bottom:1px solid var(--ink)}
-.manifesto-hero h1{margin:18px 0 28px}.manifesto-hero h1 em{font-style:normal;color:#687c63}.manifesto-hero p{max-width:590px;font-size:18px;line-height:1.55;color:#62685e}
-.manifesto-body{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;padding:70px 0 76px;border-bottom:1px solid var(--ink)}
-.manifesto-lead{position:sticky;top:30px;height:max-content}.manifesto-lead h2{font-size:43px;margin:14px 0 15px}.manifesto-lead p{font:italic 22px/1.35 Georgia;color:#697764}
-.manifesto-principles{display:grid;grid-template-columns:1fr 1fr;gap:0 35px}.manifesto-principles article{border-top:1px solid var(--line);padding:20px 0 29px}.manifesto-principles article span{font-size:10px;letter-spacing:1px;color:#778570}.manifesto-principles h3{font-size:29px;margin:8px 0 9px}.manifesto-principles p{font-size:13px;line-height:1.55;color:#62685e}
-.manifesto-invite{margin:70px 0 80px;padding:40px 45px;background:var(--yellow);max-width:730px}.manifesto-invite h2{font-size:53px;margin:10px 0 9px}.manifesto-invite p{max-width:460px;font-size:14px;margin-bottom:25px}
-@media(max-width:680px){.manifesto-hero{padding:40px 0 50px}.manifesto-hero h1{font-size:55px}.manifesto-hero p{font-size:15px}.manifesto-body{display:block;padding:45px 0}.manifesto-lead{position:static;margin-bottom:45px}.manifesto-lead h2{font-size:37px}.manifesto-principles{display:block}.manifesto-invite{margin:45px 0 55px;padding:28px 24px}.manifesto-invite h2{font-size:40px}}

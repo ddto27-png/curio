@@ -1,6 +1,6 @@
 /* Editorial seed collection. Original sources last checked September 18, 2026.
    Observations and prompts are Curio's editorial interpretations. */
-const IDEAS = [
+export const IDEAS = [
 {id:'coperni',name:'Coperni',title:'A bag made from 99% air',category:'Design',theme:'Materials',icon:'bag',color:'yellow',maker:'Coperni & Ioannis Michaloudis',year:'2024',description:'The Air Swipe Bag is made from silica aerogel, an exceptionally light material. The 33-gram design turns a familiar accessory into an experiment with how little matter an object needs.',why:'A material used in space technology finds an unexpected role in fashion. It is a useful example of ideas moving between disciplines.',prompt:'What material from another field could change something you are making?',url:'https://www.istitutomarangoni.com/en/maze35/design/the-coperni-can-revolution-whats-behind-the-99-air-swipe-bag',source:'Istituto Marangoni'},
 {id:'corner',name:'Corner',title:'Places recommended by friends',category:'Apps',theme:'Connection',icon:'map',color:'blue',maker:'Eliza Wu & Jake Xia',year:'Ongoing',description:'A social map for saving and discovering places through personal taste and recommendations. It helps turn scattered suggestions into places you can actually find again.',why:'A map can reflect the people you trust and the experiences you enjoy, as well as geography.',prompt:'What would you include in a guide to your neighborhood for one particular friend?',url:'https://www.corner.inc/guides',source:'Corner'},
 {id:'remento',name:'Remento',title:'Family stories in a book',category:'Apps',theme:'Memory',icon:'book',color:'pink',maker:'Charlie Greene & Alex Massonneau',year:'Founded 2021',description:'Family members answer prompts by speaking. Remento turns recordings into written stories and a printed book, with QR codes that link back to the original voice.',why:'It makes a large, emotional task—preserving family stories—possible through a series of small conversations.',prompt:'Which question would help you learn something new about someone close to you?',url:'https://www.remento.co/how-it-works',source:'Remento'},
@@ -21,8 +21,13 @@ const IDEAS = [
 {id:'mymind',name:'mymind',title:'Find the things you meant to remember',category:'Apps',theme:'Memory',icon:'collage',color:'yellow',maker:'mymind',year:'Ongoing',description:'A private place for notes, bookmarks, images, and articles, with associative search using details such as color, keywords, or brands.',why:'An archive can work with partial recollections and associations rather than require a perfect filing system.',prompt:'How would you describe something you remember visually but cannot name?',url:'https://mymind.com/',source:'mymind'},
 {id:'mantel',name:'Mantel',title:'Bring scattered memories together',category:'Apps',theme:'Memory',icon:'collage',color:'pink',maker:'Isabella Serrano Martinez & Aekta Shah van Dijk',year:'Emerging platform',description:'Mantel describes a memory platform that combines personal media such as photos, locations, and calendars, using AI to compose moments for reflection and sharing.',why:'The story of a day can live across several formats. Bringing them together can make it easier to revisit.',prompt:'Which three different traces would tell the story of yesterday?',url:'https://www.mantelmoments.com/the-platform',source:'Mantel'}
 ];
-const PLACES = [
+export const PLACES = [
 {id:'blur',name:'Yverdon-les-Bains',country:'Switzerland',label:'Former pavilion · 2002',note:'The site of the Swiss Expo Blur Building, on Lake Neuchâtel. The pavilion was temporary and has been dismantled.',x:57,y:53,lat:46.78,lon:6.64},
 {id:'labyrinth',name:'Paris',country:'France',label:'Past exhibition · 2005',note:'Centre Pompidou hosted the first exhibition of Jeppe Hein’s Invisible Labyrinth. This pin documents that exhibition, not a current installation.',x:47,y:43,lat:48.86,lon:2.35},
 {id:'winderen',name:'Greenland',country:'Recording region',label:'Field recordings · released 2010',note:'One of the regions recorded for Energy Field. The pin is regional, not an exact recording site or a visitor destination.',x:18,y:17,lat:72,lon:-40}
 ];
+
+
+export const FEATURED_IDS = ["coperni", "corner", "remento", "osmo"];
+export const THEMES = [...new Set(IDEAS.map(i => i.theme))];
+export const CATEGORIES = [...new Set(IDEAS.map(i => i.category))];
